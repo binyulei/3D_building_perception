@@ -1,0 +1,40 @@
+{
+    "type": "CityJSONExtension",
+    "name": "Perception",
+    "description": "Extension to model the human perception",
+    "url": "",
+    "version": "0.5",
+    "versionCityJSON": "2.0",
+
+    "extraAttributes": {
+        "Building": {
+          "+perception-cluster": { 
+            "cluster": "string"
+         },
+          "+perception-feature": { 
+            "originality": "number",
+            "pleasing": "number",
+            "ordered": "number",
+            "boring": "number",
+            "complexity": "number"
+
+         }
+        },
+        "BuildingPart": {
+          "+perception-cluster": { 
+            "cluster": "string"
+         },
+          "+perception-feature": { 
+            "originality": "number",
+            "pleasing": "number",
+            "ordered": "number",
+            "boring": "number",
+            "complexity": "number"
+            
+         }
+        }
+      }, 
+    "extraCityObjects": {},
+    "extraRootProperties": {},     
+    "extraSemanticSurfaces": {}     
+  }
