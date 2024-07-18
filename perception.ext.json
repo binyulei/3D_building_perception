@@ -2,7 +2,7 @@
     "type": "CityJSONExtension",
     "name": "Perception",
     "description": "Extension to model the human perception",
-    "url": "https://raw.githubusercontent.com/binyulei/extension/main/perception.ext.json",
+    "url": "https://raw.githubusercontent.com/binyulei/3D_building_perception/main/perception.ext.json",
     "version": "0.5",
     "versionCityJSON": "2.0",
 
